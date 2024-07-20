@@ -1,0 +1,23 @@
+* {
+    background-color: #737373;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #444444;
+    border-width: 5px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas: "banner banner banner";
+}
+
+#title-image {
+    grid-area: banner;
+    width: 100%;
+    grid-row: 1 / 2;
+}

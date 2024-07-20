@@ -1,0 +1,32 @@
+body {
+    background-color: aquamarine;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header {
+    background-color: aqua;
+    grid-column: 2/-1;
+}
+
+p {
+    grid-column: 2/4;
+}
+
+footer {
+    grid-column: 1/-1;
+    background-color: magenta;
+    color: white;
+}
+
+img {
+    justify-self: center;
+    max-width: 200px;
+    max-height: 200px;
+}
+.sec1 {
+    background-color: olive;
+}

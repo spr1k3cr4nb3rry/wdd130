@@ -1,0 +1,11 @@
+* {
+    background: #FCA6C9;
+}
+
+#nelson {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 20%;
+}
